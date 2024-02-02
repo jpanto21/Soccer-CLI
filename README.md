@@ -6,7 +6,7 @@ Then user will win or loose the game randomly via a method
 the user will be told if they won or lost the game along with a prompt with all their entered info
 the user has the chance to play again or to exit game at the end
 
-The purpose of writing tests is to ensure that your code functions as expected and to catch any regressions that may occur as you modify or extend your codebase. In this case, the test is focusing on the play_shoot method within the Game class.
+the test is focusing on the play_shoot method within the Game class.
 
 ```assert_output(/What a goal!!! John Doe scores a wonderful goal!/) do
   @game.play_shoot
